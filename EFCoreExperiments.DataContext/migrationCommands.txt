@@ -1,0 +1,5 @@
+// Add new migration
+dotnet ef migrations add --context MainContext '{{name}}' --project EFCoreExperiments.DataContext --startup-project EFCoreExperiments.TestAPI
+
+// Run database changes
+dotnet ef database update --project EFCoreExperiments.DataContext --startup-project EFCoreExperiments.TestAPI
