@@ -1,7 +1,8 @@
+using EFCoreExperiments.Core;
+using EFCoreExperiments.DataContext;
+using EFCoreExperiments.DataContext.Contexts;
 using Microsoft.OpenApi.Models;
 using Serilog;
-using EFCoreExperiments.DataContext;
-using EFCoreExperiments.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +39,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.ApplyMigrations<MainContext>();
 
 app.UseSwagger();
 app.UseSwaggerUI(options =>
