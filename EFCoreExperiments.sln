@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{02EA681E-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreFiltering", "EFCoreFiltering\EFCoreFiltering.csproj", "{7A0678F6-E679-42D5-B420-C2F1826A646D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreExperiments.Tests", "EFCoreExperiments.Tests\EFCoreExperiments.Tests.csproj", "{319331D8-B709-44FC-AC7B-DD684F2F8878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{7A0678F6-E679-42D5-B420-C2F1826A646D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A0678F6-E679-42D5-B420-C2F1826A646D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A0678F6-E679-42D5-B420-C2F1826A646D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319331D8-B709-44FC-AC7B-DD684F2F8878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319331D8-B709-44FC-AC7B-DD684F2F8878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319331D8-B709-44FC-AC7B-DD684F2F8878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319331D8-B709-44FC-AC7B-DD684F2F8878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
